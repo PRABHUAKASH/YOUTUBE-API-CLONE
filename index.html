@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOU-TUBE API</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        body{
+            background-color:lightsalmon;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <nav class="navbar">
+        <div class="toggle-btn">
+           
+        </div>
+    
+        <div class="search-box ">
+            <input type="text" class="search-bar" placeholder="Play on your mode ">
+            <button class="search-btn"><img src="search.PNG" alt="">Search</button>
+        </div>
+        <div class="user-options">
+            <img src="" class="icon" alt="" title="videos">
+            <img src="" class="icon" alt="" title=" apps">
+            <div class="user-dp">
+                <img src="dhoni.jpg" alt="" title="login">
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="side-bar">
+        <a href="#" class="links active">Home</a>
+        <a href="#" class="links">Explore</a>
+        <a href="#" class="links">Subscription</a>
+        <hr class="seperator">
+       <div>
+           
+          <p style="margin: 7px;font-weight: bold;">Put Id to get Channel information</p> 
+           <p style="margin: 10px;font-weight: bold;">Channel Details:</p>
+           <div style="margin: 10px;">
+            Subscribers: <input type="text" name="" id="Subscriberid">
+           </div>
+           <div style="margin: 10px;">
+            Views: <input type="text" name="" id="views">
+           </div>
+           <div style="margin: 10px;">
+            Count: <input type="text" name="" id="videocount">
+           </div>
+
+       </div>
+
+
+
+        <div>
+            <button id="Play-list" style="margin: 10px;">Playlist:</button>
+            <input type="text" name="" id="PlayList" style="width: 200px;height: 80px;margin-left: 10px;">
+        </div>
+
+       
+    </div>
+
+    
+    <div class="filters">
+        <button class="filter-options active">All</button>
+        <button class="filter-options">Cricket</button>
+        <button class="filter-options">ar rahman </button>
+        <button class="filter-options">vijay</button>
+        <button class="filter-options">Cinema</button>
+        <button class="filter-options">Hollywood</button>
+        <button class="filter-options">Bikes</button>
+        <button class="filter-options">JavaScript</button>
+        <button class="filter-options">Magic</button>
+    </div>
+
+    
+     <div class="video-container">
+        <div class="video">
+            <img src="dhoni.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="dhoni.jpg" class="channel-icon1" alt="">
+                <div class="info">
+                    <h4 class="tit">MS Dhoni</h4>
+                    <p class="channel-name">6.4M subscribers</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>  
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
